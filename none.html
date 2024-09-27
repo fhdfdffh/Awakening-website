@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>none</title>
+  <meta name="generator" content="Google Web Designer 14.0.3.1020">
+  <style type="text/css" id="gwd-text-style">
+    p {
+      margin: 0px;
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+  </style>
+  <style type="text/css">
+    html, body {
+      width: 50%;
+      height: 50%;
+      margin: 150px 300px 300px;
+    }
+    button {
+      width: 40%;
+      border: none;
+      outline: none;
+      padding: 5px;
+      font-size: 24px;
+      border-radius: 1px;
+      font-family: Montserrat;
+      text-align: center;
+      cursor: pointer;
+      margin: 10px;
+      transition: background-color 0.3s ease 0s;
+    }
+    button:hover {
+      background-color: rgb(214, 226, 236);
+    }
+    body {
+      background-color: transparent;
+      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transform-style: preserve-3d;
+    }
+    .gwd-div-gcpq {
+      left: 0px;
+      top: 20px;
+      transform: translate3d(0px, 0px, 0px);
+      transform-style: preserve-3d;
+    }
+    @keyframes gwd-gen-c31jgwdanimation_gwd-keyframes {
+      0% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: linear;
+      }
+      33.3333% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: linear;
+      }
+      100% {
+        transform: translate3d(0px, -150px, 0px);
+        animation-timing-function: linear;
+      }
+    }
+    .htmlNoPages .gwd-gen-c31jgwdanimation {
+      animation: 1.5s linear 0s 1 normal forwards running gwd-gen-c31jgwdanimation_gwd-keyframes;
+    }
+  </style>
+</head>
+
+<body class="htmlNoPages">
+  <div class="header">
+    <h1 id="heading">Learning JavaScript </h1>
+     <a href="awakening.html">Go to index</a>
+    <p>With Brad Traversy</p>
+  </div>
+  <div class="container gwd-div-gcpq gwd-gen-c31jgwdanimation">
+    <button onclick="changeText()">Click Me</button>
+  </div>
+  <script>
+    function changeText() {
+      var heading = document.getElementById('heading');
+      heading.innerHTML = 'You Clicked!';
+    }
+  </script>
+</body>
+
+</html>
